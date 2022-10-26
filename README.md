@@ -6,6 +6,8 @@ A friend of mine, Steve, has just started his career and asked me for some help 
 
 ## Results
 
+---
+
 I created a tickerIndex to match the tickers array to three output arrays - tickerVolumes, tickerStartingPrices, and tickerEndingPrices.  This allowed my for loop to run more effiently since it could run through the tickerIndex values instead of looping through all of the tickers individually.   
 ---
     'Create a tickerIndex to match tcker array to 3 output arrays
