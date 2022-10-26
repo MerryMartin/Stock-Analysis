@@ -8,7 +8,9 @@ A friend of mine, Steve, has just started his career and asked me for some help 
 <sub>
 I created a tickerIndex to match the tickers array to three output arrays - tickerVolumes, tickerStartingPrices, and tickerEndingPrices.  This allowed my for loop to run more effiently since it could run through the tickerIndex values instead of looping through all of the tickers individually.   
 </sub>
+
 ---
+
     'Create a tickerIndex to match tcker array to 3 output arrays
     Dim tickerIndex As Integer
     tickerIndex = 0
@@ -18,6 +20,7 @@ I created a tickerIndex to match the tickers array to three output arrays - tick
     Dim tickerStartingPrices(12)  As Single
     Dim tickerEndingPrices(12)  As Single
 ---
+
 The data outputs for the refactored code matched the outputs for the original code but were executed much faster.  
 
 ### Data Output (Original and Refactored Scripts)
