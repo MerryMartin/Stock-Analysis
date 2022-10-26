@@ -5,9 +5,9 @@
 A friend of mine, Steve, has just started his career and asked me for some help with analyzing green stocks so he can diversify funds for his parents.  Although his parents are currently only interested in a small number green stocks, he wanted a tool that would work for the entire stock market and could be executed quickly.  I originally created an analysis code that would analyze twelve different stock tickers.  In order to scale it up to be able to analyze the entire stock market, I needed to reafactor the code to be more efficiant.  
 
 ## Results
-###
-
+<sub>
 I created a tickerIndex to match the tickers array to three output arrays - tickerVolumes, tickerStartingPrices, and tickerEndingPrices.  This allowed my for loop to run more effiently since it could run through the tickerIndex values instead of looping through all of the tickers individually.   
+</sub>
 ---
     'Create a tickerIndex to match tcker array to 3 output arrays
     Dim tickerIndex As Integer
