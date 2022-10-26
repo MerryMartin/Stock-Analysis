@@ -2,10 +2,9 @@
 
 ## Overview of Project
 
-A friend of mine, Steve, has just started his career and asked me for some help with analyzing green stocks so he can diversify funds for his parents.  Although his parents are currently only interested in a small number green stocks, he wanted a tool that would work for the entire stock market and could be executed quickly.  I originally created an analysis script that would analyze twelve different stock tickers.  In order to scale it up to be able to analyze the entire stock market, I needed to reafactor the script to be more efficiant.  
+A friend of mine, Steve, has just started his career and asked me for some help with analyzing green stocks so he can diversify funds for his parents.  Although his parents are currently only interested in a small number green stocks, he wanted a tool that would work for the entire stock market and could be executed quickly.  I originally created an analysis code that would analyze twelve different stock tickers.  In order to scale it up to be able to analyze the entire stock market, I needed to reafactor the code to be more efficiant.  
 
 ## Results
-Using images and examples of code, compare the stock performance between 2018 and 2018 as well as the execution time for the original and refactored script
 
 I created a tickerIndex to match the tickers array to three output arrays - tickerVolumes, tickerStartingPrices, and tickerEndingPrices.  This allowed my for loop to run more effiently since it could run through the tickerIndex values instead of looping through all of the tickers individually.   
 ---
@@ -18,7 +17,7 @@ I created a tickerIndex to match the tickers array to three output arrays - tick
     Dim tickerStartingPrices(12)  As Single
     Dim tickerEndingPrices(12)  As Single
 ---
-The data outputs for the refactored script matched the outputs for the original script but were executed much faster.  
+The data outputs for the refactored code matched the outputs for the original code but were executed much faster.  
 
 ### Data Output (Original and Refactored Scripts)
 ![VBA_Challenge_2018_dataoutput](https://user-images.githubusercontent.com/115426070/198074389-bb3aba83-3db8-4278-b1db-1bfa18a70e65.png)
@@ -32,8 +31,12 @@ The data outputs for the refactored script matched the outputs for the original 
 
 
 ## Summary
-1 What are the advantages and disadvantages of refactoring code
-2 How do these pros and cons apply to refactoring the original VBA script
+### Advantages and Disadvantages
+There are definitely advantages to refactoring code.  When the refactored code doesn't have to needlessly analyze data points repetitively, it is more efficient and can be used for larger datasets.  It can also be refactored to be more user friendly.  In the example above, I added an input box for the user to specify the dates that he wanted to analyze and a couple of macro buttons to make it super easy to execute.  One disadvantage to refactoring code is that once you change one aspect of the code, the developer must carefully examine the rest of the code.  Unexpected errors pop up often and must be debugged in order to get the code to work again.  
+
+---
+
+When I refactored the original VBA code, there were many bugs to work through and it was difficult to isolate the problem.  The process did enable me to become more familar with error messages and how to locate the offending code.  Once the code was working properly again, it was clear that it was now more user friendly and could be executed much faster.  I know Steve will be able to easily use it to analyze the green stocks for his parents and also to analyze the much bigger dataset of the stock exchange. 
 
 
 
