@@ -20,7 +20,15 @@ I created a tickerIndex to match the tickers array to three output arrays - tick
 ---
 The data outputs for the refactored script matched the outputs for the original script but were executed much faster.  
 
+### Data Output (Original and Refactored Scripts)
 ![VBA_Challenge_2018_dataoutput](https://user-images.githubusercontent.com/115426070/198074389-bb3aba83-3db8-4278-b1db-1bfa18a70e65.png)
+
+### Original Script Run Time
+![VBA_Challenge_2018_original](https://user-images.githubusercontent.com/115426070/198074553-3b2feeb9-5a0d-45ab-baa0-c40ce16f8296.png)
+
+### Refactored Script Run Time
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/115426070/198074876-dd197f00-dcca-4952-a648-128b770d5b2f.png)
+
 
 
 ## Summary
