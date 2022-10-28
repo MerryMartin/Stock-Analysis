@@ -25,14 +25,14 @@ The data outputs for the refactored code matched the outputs for the original co
 ### Data Output (Original and Refactored Scripts)
 ![VBA_Challenge_2018_dataoutput](https://user-images.githubusercontent.com/115426070/198074389-bb3aba83-3db8-4278-b1db-1bfa18a70e65.png)
 
-### Original Script Run Time
+### Original Script Run Times
 #### 2017
 <img width="252" alt="VBA_Challenge_2017_original" src="https://user-images.githubusercontent.com/115426070/198741700-fb1101d9-eb4f-4d7f-9426-348cb3ccc89a.png">
 
 #### 2018
 ![VBA_Challenge_2018_original](https://user-images.githubusercontent.com/115426070/198074553-3b2feeb9-5a0d-45ab-baa0-c40ce16f8296.png)
 
-### Refactored Script Run Time
+### Refactored Script Run Times
 #### 2017
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/115426070/198741730-ed1e25f5-1710-439e-b2dc-dab1e010ca75.png)
 
