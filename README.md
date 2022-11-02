@@ -48,7 +48,7 @@ The data outputs for the refactored code matched the outputs for the original co
 There are definitely advantages to refactoring code.  When the refactored code doesn't have to needlessly analyze data points repetitively, it is more efficient and can be used for larger datasets.  It can also be refactored to be more user friendly.  In the project for Steve, I added an input box for him to specify the dates that he wanted to analyze and a couple of macro buttons to make it super easy to execute.  One disadvantage to refactoring code is that once you change one aspect of the code, the developer must carefully examine the rest of the code.  Unexpected errors pop up often and must be debugged in order to get the code to work again.  
 
 ---
-#### Reflections on Refactoring the VBA Script
+### Reflections on Refactoring the VBA Script
 When I refactored the original VBA code, there were many bugs to work through and it was difficult to isolate the problems.  The process did enable me to become more familar with error messages and how to locate the offending code.  Once the code was working properly again, it was clear that it was now more user friendly and could be executed much faster.  I know Steve will be able to easily use it to analyze the green stocks for his parents and also to analyze the much bigger dataset of the entire stock exchange. 
 
 
